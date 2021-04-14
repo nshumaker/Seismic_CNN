@@ -1,0 +1,23 @@
+name: seis_feature_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - setuptools
+  - wheel
+  - invoke
+  - notebook
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - numpy
+  - matplotlib
+  - papermill
+  - pandas
+  - scipy
+  - tensorflow
+  - keras
+  - pip
+  - pip:
+      - -e .
+      - python-dotenv>=0.5.1
