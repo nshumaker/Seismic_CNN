@@ -11,14 +11,15 @@ ENV_NAME = 'seis_feature_env'
 # https://github.com/pyinvoke/invoke/pull/407
 # TODO Test if this really works on other than Windows platforms
 if True:
-    #SHELL = 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'
-    SHELL = '/bin/bash'
+    SHELL = 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'
+    #SHELL = '/bin/bash'
 else:
     # default was cmd.exe
     if platform == 'win32':
         SHELL = environ['COMSPEC']
     else:
-        SHELL  = 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'
+        #SHELL  = 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'
+        SHELL = '/bin/bash'
 
 
 # Run this first
