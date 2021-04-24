@@ -1,5 +1,5 @@
 ## Access and Use
-Completed notebook saved in "notebooks" folder. To reproduce the workflow, clone the repo and run the environment.yml file to download and install the required packages. The repo sturcture was access from Rafael Pinto's cookie-cutter repo.
+Completed notebook saved in "notebooks" folder. To reproduce the workflow, clone the repo and run the environment.yml file to download and install the required packages. The repo sturcture was accessed from Rafael Pinto's cookie-cutter repo.
 Helper functions used in the notebook are saved in the src/utils.py folder.
 
 # Motivation
