@@ -1,5 +1,6 @@
-# Repo Structure
-This repo sturcture was borrowed from Rafael Pinto https://github.com/RafaelPinto/simplified_project_cookiecutter
+## Access and Use
+Completed notebook saved in "notebooks" folder. To reproduce the workflow, clone the repo and run the environment.yml file to download and install the required packages. The repo sturcture was accessed from Rafael Pinto's cookie-cutter repo.
+Helper functions used in the notebook are saved in the src/utils.py folder.
 
 # Motivation
 While seismic processing is heavy on computation and quantification, the discipline of seismic interpretation is highly descriptive and often performed by stratigraphers who have deep expertise in recognizing rock fabrics, textures, and depositional relationships through examination of outcrops and thin sections. Seismic stratigraphy is similarly descriptive; facies are “hummocky”, “continuous”, “mottled”, “striped”, “truncated”, “attenuated”, etc. and when viewed through a sequence stratigraphy lens: “clinoforms”, “transgressive”, “regressive”, “high-stand tract”, or a geophysical lens: “attenuated”, “bright”, “noise trains”, “over-migrated”, etc. 
